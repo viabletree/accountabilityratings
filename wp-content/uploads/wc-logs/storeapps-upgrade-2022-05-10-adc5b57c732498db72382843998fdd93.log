@@ -1,0 +1,7 @@
+2022-05-10T10:31:32+00:00 DEBUG Requesting StoreApps data. /wp-content/plugins/smart-offers/sa-includes/class-storeapps-upgrade-3-9.php 1752
+2022-05-10T10:31:32+00:00 DEBUG Saving StoreApps data. /wp-content/plugins/smart-offers/sa-includes/class-storeapps-upgrade-3-9.php 1928
+2022-05-10T10:31:32+00:00 DEBUG Saved StoreApps data. /wp-content/plugins/smart-offers/sa-includes/class-storeapps-upgrade-3-9.php 1931
+2022-05-10T10:31:33+00:00 DEBUG Received response from https://test.spoonjab.com/wp-admin/. Should contain StoreApps data./wp-content/plugins/smart-offers/sa-includes/class-storeapps-upgrade-3-9.php 1782
+2022-05-10T10:31:33+00:00 ERROR Response code, message mismatch. Response code: 401, Response message: Unauthorized. /wp-content/plugins/smart-offers/sa-includes/class-storeapps-upgrade-3-9.php 1804
+2022-05-10T10:31:33+00:00 DEBUG Saving StoreApps data. /wp-content/plugins/smart-offers/sa-includes/class-storeapps-upgrade-3-9.php 1928
+2022-05-10T10:31:33+00:00 DEBUG Saved StoreApps data. /wp-content/plugins/smart-offers/sa-includes/class-storeapps-upgrade-3-9.php 1931

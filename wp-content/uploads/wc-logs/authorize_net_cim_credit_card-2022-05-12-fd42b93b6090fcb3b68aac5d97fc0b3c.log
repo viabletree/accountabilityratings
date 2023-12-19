@@ -1,0 +1,378 @@
+05-12-2022 @ 13:55:21 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.6.3 (WooCommerce/6.4.1; WordPress/5.9.3)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>************</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 1.29092s
+
+05-12-2022 @ 13:55:21 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-cache, no-store, max-age=0
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [expires] => -1
+    [x-opnet-transaction-trace] => b862e511-59ad-4e5c-bad1-a9fea9ca6412-19068-23837574
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [x-download-options] => noopen
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Thu, 12 May 2022 13:55:23 GMT
+    [content-length] => 1653
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>First Data Nashville</name>
+      <id>2</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>J</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>todd hobbs</merchantName>
+  <gatewayId>821179</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>Echeck</paymentMethod>
+    <paymentMethod>JCB</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>4tWe9tV2bg7Pcc4crzn6Wmu8XF7KCWCb22UKC4awQedPJXh59tMhCR978z5zk2JL</publicClientKey>
+  <businessInformation>
+    <company>todd hobbs</company>
+    <address>1 Main Street</address>
+    <city>Bellevue</city>
+    <state>WA</state>
+    <zip>98004</zip>
+    <country>US</country>
+    <phoneNumber>425-555-1212</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>toddhobbs78@gmail.com</email>
+      <firstName>TestFirstName</firstName>
+      <lastName>TestLastName</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+
+05-12-2022 @ 13:55:22 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.6.3 (WooCommerce/6.4.1; WordPress/5.9.3)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<getMerchantDetailsRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>************</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+</getMerchantDetailsRequest>
+duration: 0.96482s
+
+05-12-2022 @ 13:55:22 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-cache, no-store, max-age=0
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [expires] => -1
+    [x-opnet-transaction-trace] => 319f1784-3cf5-477c-ad7d-b55b258dfacf-2136-23840235
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [x-download-options] => noopen
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Thu, 12 May 2022 13:55:23 GMT
+    [content-length] => 1653
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<getMerchantDetailsResponse>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <isTestMode>false</isTestMode>
+  <processors>
+    <processor>
+      <name>First Data Nashville</name>
+      <id>2</id>
+      <cardTypes>
+        <cardType>A</cardType>
+        <cardType>D</cardType>
+        <cardType>J</cardType>
+        <cardType>M</cardType>
+        <cardType>V</cardType>
+      </cardTypes>
+    </processor>
+  </processors>
+  <merchantName>todd hobbs</merchantName>
+  <gatewayId>821179</gatewayId>
+  <marketTypes>
+    <marketType>eCommerce</marketType>
+  </marketTypes>
+  <productCodes>
+    <productCode>CNP</productCode>
+  </productCodes>
+  <paymentMethods>
+    <paymentMethod>AmericanExpress</paymentMethod>
+    <paymentMethod>Discover</paymentMethod>
+    <paymentMethod>Echeck</paymentMethod>
+    <paymentMethod>JCB</paymentMethod>
+    <paymentMethod>MasterCard</paymentMethod>
+    <paymentMethod>Visa</paymentMethod>
+  </paymentMethods>
+  <currencies>
+    <currency>USD</currency>
+  </currencies>
+  <publicClientKey>4tWe9tV2bg7Pcc4crzn6Wmu8XF7KCWCb22UKC4awQedPJXh59tMhCR978z5zk2JL</publicClientKey>
+  <businessInformation>
+    <company>todd hobbs</company>
+    <address>1 Main Street</address>
+    <city>Bellevue</city>
+    <state>WA</state>
+    <zip>98004</zip>
+    <country>US</country>
+    <phoneNumber>425-555-1212</phoneNumber>
+  </businessInformation>
+  <merchantTimeZone>America/Los_Angeles</merchantTimeZone>
+  <contactDetails>
+    <contactDetail>
+      <email>toddhobbs78@gmail.com</email>
+      <firstName>TestFirstName</firstName>
+      <lastName>TestLastName</lastName>
+    </contactDetail>
+  </contactDetails>
+</getMerchantDetailsResponse>
+
+05-12-2022 @ 13:57:13 - Accept.js Error: payment nonce is missing
+05-12-2022 @ 13:57:50 - Accept.js Response:
+ Array
+(
+    [opaqueData] => Array
+        (
+            [dataDescriptor] => COMMON.ACCEPT.INAPP.PAYMENT
+            [dataValue] => eyJjb2RlIjoiNTBfMl8wNjAwMDUyMzJCQTVCREFBRTNBMUI2OTlGNDA0QTY5MTZGRUJFMjRDMTQ0MUM3RkJDOTY5Q0MwRjc4NjBDQkZCQ0FEMjQ4QzM3REEwOTkxMEIxMTRBOTdGMjc5RUM1RTI1RUYzMEYyIiwidG9rZW4iOiI5NjUyMzYzODcyMDQwMzE5MjAzNjAyIiwidiI6IjEuMSJ9
+        )
+
+    [messages] => Array
+        (
+            [resultCode] => Ok
+            [message] => Array
+                (
+                    [0] => Array
+                        (
+                            [code] => I_WC_01
+                            [text] => Successful.
+                        )
+
+                )
+
+        )
+
+    [encryptedCardData] => Array
+        (
+            [cardNumber] => XXXXXXXXXXXX4242
+            [expDate] => 05/23
+            [bin] => 424242
+        )
+
+    [customerInformation] => Array
+        (
+            [firstName] => 
+            [lastName] => 
+        )
+
+)
+
+05-12-2022 @ 13:57:51 - Request
+method: POST
+uri: https://apitest.authorize.net/xml/v1/request.api
+user-agent: WooCommerce-Authorize.Net-Gateway/3.6.3 (WooCommerce/6.4.1; WordPress/5.9.3)
+headers: Array
+(
+    [content-type] => application/xml
+    [accept] => application/xml
+)
+body: <?xml version="1.0" encoding="UTF-8"?>
+<createTransactionRequest xmlns="AnetApi/xml/v1/schema/AnetApiSchema.xsd">
+  <merchantAuthentication>
+    <name>************</name>
+    <transactionKey>****************</transactionKey>
+  </merchantAuthentication>
+  <refId>74</refId>
+  <transactionRequest>
+    <transactionType>authCaptureTransaction</transactionType>
+    <amount>112.50</amount>
+    <currencyCode>USD</currencyCode>
+    <payment>
+      <opaqueData>
+        <dataDescriptor>COMMON.ACCEPT.INAPP.PAYMENT</dataDescriptor>
+        <dataValue>**********</dataValue>
+      </opaqueData>
+    </payment>
+    <solution>
+      <id>A1000065</id>
+    </solution>
+    <order>
+      <invoiceNumber>74</invoiceNumber>
+      <description>My Blog - Order 74</description>
+    </order>
+    <lineItems>
+      <lineItem>
+        <itemId>74</itemId>
+        <name>cup</name>
+        <quantity>1</quantity>
+        <unitPrice>100.00</unitPrice>
+        <taxable>1</taxable>
+      </lineItem>
+      <lineItem>
+        <itemId>75</itemId>
+        <name>frozen yogurt (hidden)</name>
+        <quantity>1</quantity>
+        <unitPrice>12.50</unitPrice>
+        <taxable>1</taxable>
+      </lineItem>
+    </lineItems>
+    <customer>
+      <id>21</id>
+      <email>jypebo@mailinator.com</email>
+    </customer>
+    <billTo>
+      <firstName>Cecilia</firstName>
+      <lastName>Downs</lastName>
+      <company>Nielsen and Buchanan Co</company>
+      <address>641 North Rocky Oak Parkway Laborum Quos mollit</address>
+      <city>Aute ipsam dolores a</city>
+      <state>California</state>
+      <zip>49411</zip>
+      <country>MAC</country>
+      <phoneNumber>+1 (821) 996-4295</phoneNumber>
+    </billTo>
+    <shipTo>
+      <firstName>Cecilia</firstName>
+      <lastName>Downs</lastName>
+      <company>Nielsen and Buchanan Co</company>
+      <address>641 North Rocky Oak Parkway Laborum Quos mollit</address>
+      <city>Aute ipsam dolores a</city>
+      <state>California</state>
+      <zip>49411</zip>
+      <country>MAC</country>
+    </shipTo>
+    <customerIP>::1</customerIP>
+    <transactionSettings>
+      <setting>
+        <settingName>duplicateWindow</settingName>
+        <settingValue>0</settingValue>
+      </setting>
+    </transactionSettings>
+  </transactionRequest>
+</createTransactionRequest>
+duration: 1.1189s
+
+05-12-2022 @ 13:57:51 - Response
+code: 200
+message: OK
+headers: Array
+(
+    [cache-control] => no-cache, no-store, max-age=0
+    [pragma] => no-cache
+    [content-type] => application/xml; charset=utf-8
+    [expires] => -1
+    [x-opnet-transaction-trace] => 319f1784-3cf5-477c-ad7d-b55b258dfacf-2136-23847184
+    [access-control-allow-credentials] => true
+    [access-control-allow-headers] => x-requested-with,cache-control,content-type,origin,method,SOAPAction
+    [access-control-allow-methods] => PUT,OPTIONS,POST,GET
+    [access-control-allow-origin] => *
+    [x-download-options] => noopen
+    [strict-transport-security] => max-age=31536000
+    [x-cnection] => close
+    [date] => Thu, 12 May 2022 13:57:53 GMT
+    [content-length] => 912
+)
+body: <?xml version="1.0" encoding="utf-8"?>
+<createTransactionResponse>
+  <refId>74</refId>
+  <messages>
+    <resultCode>Ok</resultCode>
+    <message>
+      <code>I00001</code>
+      <text>Successful.</text>
+    </message>
+  </messages>
+  <transactionResponse>
+    <responseCode>1</responseCode>
+    <authCode>DM5BKA</authCode>
+    <avsResultCode>Y</avsResultCode>
+    <cvvResultCode>P</cvvResultCode>
+    <cavvResultCode>2</cavvResultCode>
+    <transId>40091973048</transId>
+    <refTransID/>
+    <transHash/>
+    <testRequest>0</testRequest>
+    <accountNumber>XXXX4242</accountNumber>
+    <accountType>Visa</accountType>
+    <messages>
+      <message>
+        <code>1</code>
+        <description>This transaction has been approved.</description>
+      </message>
+    </messages>
+    <transHashSha2/>
+    <networkTransId>O6D3YM6IVFRMKUAJFK9WOHB</networkTransId>
+  </transactionResponse>
+</createTransactionResponse>
+

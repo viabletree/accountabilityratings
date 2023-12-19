@@ -1,0 +1,130 @@
+body.page-id-344 header.et-l.et-l--header{
+    display: none;
+}
+body.page-id-344 footer{
+    display: none;
+  }
+.search-reviews-container input[type="text"]{
+    border: 1px solid #6383C1;
+    border-radius: 10px;
+    padding: 3px 10px;
+}
+.search-reviews-container .search-reviews{
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 10px;
+}
+.searchreviews-btn {
+    background: #6383C1;
+    border-radius: 10px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 14px;
+}
+.searchreviews-btn:hover, .searchreviews-btn:active{
+    background: #6383C1;
+    color: #fff;
+}
+body.page-id-344 .card .c-details div.meta-reply-container{
+    display: flex;
+    column-gap: 60px;
+}
+.show-hide-cmt{
+    background-color: #3C64B1;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #FFFFFF;
+    padding: 10px 64px;
+}
+.reply-user-btn{
+    background-color: transparent;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    color: #3C64B1;
+    border: 1px solid #3C64B1;
+    padding: 10px 64px;
+}
+body.page-id-344 .cmt-section .pro-details{
+    display: flex;
+    column-gap: 20px;
+    justify-content: space-between;
+    align-items: center;
+}
+body.page-id-344 .reply-container{
+    display: none;
+}
+body.page-id-344 .reply-container .reply .reply-title{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    color: #3C64B1;
+}
+body.page-id-344 .reply-container .reply .reply-content{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    color: #626264;
+
+}
+
+@media(max-width: 1230px){
+    .reply-user-btn{
+        padding: 10px 34px;
+    }
+    body.page-id-344 .card .c-details div.meta-reply-container{
+        column-gap: 40px;
+    }
+    div.d-flex.justify-content-between.card-top.card-top-with-reply{
+        column-gap: 20px;
+    }
+    div.d-flex.justify-content-between.card-top.card-top-with-reply .cmt-meta{
+        column-gap: 40px;
+    }
+    div.d-flex.justify-content-between.card-top.card-top-with-reply ul.cmt-meta li::after{
+        content: "";
+    }
+}
+
+@media(max-width: 650px){
+    body.page-id-344 .cmt-section .pro-details{
+        flex-direction: column-reverse;
+        align-items: flex-start;
+        row-gap: 10px;
+    }
+}
+
+@media(max-width: 691px){
+    body.page-id-344 .card .c-details div.meta-reply-container {
+        flex-direction: column;
+        row-gap: 10px;
+    }
+    .show-hide-cmt-div a.btn.btn-primary.show-hide-cmt{
+        padding: 10px 30px;
+    }
+    .search-reviews-container .search-reviews{
+        justify-content: center;
+    }
+}
+
+@media(max-width: 421px){
+    .search-reviews-container .search-reviews{
+        flex-direction: column;
+        align-items: center;
+        row-gap: 10px;
+    }
+
+    body.page-id-344 .cmt-section .pro-details{
+        align-items: center;
+    }
+
+    .show-hide-cmt-div{
+        width: 100%;
+    }
+    .show-hide-cmt-div a.btn.btn-primary.show-hide-cmt{
+        width: 100%;
+    }
+}

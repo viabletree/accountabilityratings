@@ -1,0 +1,20 @@
+[10-Apr-2023 20:42:56 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/algonpme/accountabilityratings.org/wp-content/themes/Divi/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/algonpme/accountabilityratings.org/wp-content/themes/Divi/index.php on line 1
+[30-Sep-2023 15:05:05 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/algonpme/accountabilityratings.org/wp-content/themes/Divi/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/algonpme/accountabilityratings.org/wp-content/themes/Divi/index.php on line 1
+[30-Sep-2023 15:05:29 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/algonpme/accountabilityratings.org/wp-content/themes/Divi/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/algonpme/accountabilityratings.org/wp-content/themes/Divi/index.php on line 1
+[30-Sep-2023 15:05:49 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/algonpme/accountabilityratings.org/wp-content/themes/Divi/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/algonpme/accountabilityratings.org/wp-content/themes/Divi/index.php on line 1
+[30-Sep-2023 15:05:50 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/algonpme/accountabilityratings.org/wp-content/themes/Divi/index.php:1
+Stack trace:
+#0 {main}
+  thrown in /home/algonpme/accountabilityratings.org/wp-content/themes/Divi/index.php on line 1

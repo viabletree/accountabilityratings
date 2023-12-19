@@ -1,0 +1,104 @@
+body.page-id-333 header.et-l.et-l--header{
+    display: none;
+}
+body.page-id-333 footer{
+    display: none;
+  }
+
+.user-statics ul{
+    display: flex;
+    align-items: center;
+    border: 2px solid;
+    width: 100%;
+    max-width: 100%;
+    margin: 0 auto;
+    background: rgba(94, 173, 242, 0.04);
+    border: 3px solid rgba(94, 173, 242, 0.3);
+    border-radius: 18px;
+    flex-wrap: wrap;
+}
+.user-statics ul li{
+    width: 100%;
+    /* border-right: 1px solid rgba(94, 173, 242, 0.3); */
+    padding: 30px;
+    position:relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    width: 100%;
+    max-width: 33.33%;
+}
+.user-statics ul li::after{
+    content: "|";
+    color: rgba(94, 173, 242, 0.3);
+    font-size: 65px;
+    font-weight: 100;
+    position: absolute;
+    top: 23px;
+    right: 0;
+}
+.user-statics ul li:last-of-type::after{
+    content: "";
+}
+.user-statics ul li p{
+    text-align: center;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    color: #022B49;
+}
+.user-statics ul li span{
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    color: #3C64B1;
+}
+
+.user-cmt-section .like-dislike-container .like-dislike li.like img{
+    margin-bottom: 0;
+}
+
+@media (max-width: 992px){
+    .like-dislike-container-dashboard .like-dislike li img {
+        width: 35px !important;
+    }
+}
+
+@media(max-width: 768px){
+    .user-statics ul{
+        justify-content: center;
+    }
+    .user-statics ul li{
+        max-width: 50%;
+    }
+    .user-statics ul li::after{
+        content: "____";
+        color: rgba(94, 173, 242, 0.3);
+        font-size: 77px;
+        font-weight: 100;
+        width: 38%;
+        top: 14px;
+        right: 100px;
+    }
+    .user-statics ul li:last-of-type:after{
+        content: "____";
+        color: rgba(94, 173, 242, 0.3);
+        font-size: 77px;
+        font-weight: 100;
+        width: 38%;
+        top: 14px;
+        right: 100px;
+    }
+    .user-top-card-container div.row.align-items-center.flex-wrap div.col-md-10{
+        width: 100%;
+        max-width: 70%;
+    }
+}
+@media(max-width: 500px){
+    .user-statics ul li{
+        max-width: 100%;
+    }
+}

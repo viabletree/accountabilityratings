@@ -1,0 +1,4 @@
+[24-Jan-2023 06:53:56 America/New_York] PHP Fatal error:  Uncaught Error: Call to undefined function __() in /home/algonpme/accountabilityratings.org/wp-admin/user/menu.php:10
+Stack trace:
+#0 {main}
+  thrown in /home/algonpme/accountabilityratings.org/wp-admin/user/menu.php on line 10

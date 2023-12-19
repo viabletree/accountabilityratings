@@ -1,0 +1,150 @@
+body.page-id-341 header.et-l.et-l--header{
+    display: none;
+}
+body.page-id-341 footer{
+  display: none;
+}
+
+  #content-wrapper .main-container{
+    width: 100%;
+    max-width: 1500px;
+    margin: 0 auto;
+  }
+  #content-wrapper .main-container .main-heading{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 20px 0;
+    color: #1E293B;
+  }
+  .edit-profile-container{
+    background: #fff;
+    padding: 30px;
+    border-radius: 18px;
+  }
+  .edit-profile-container h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #5E5E75;
+  }
+  #edit_profile input[type=text], #edit_profile input[type=email] {
+    background: #ffffff;
+    border: 1px solid #3C64B1;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #bcbec0;
+    min-height: 50px;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  #edit_profile input::placeholder {
+    color: #3c64b1;
+  }
+  #edit_profile input:focus,
+  #edit_profile input:active {
+    /* outline: 0; */
+    border: 2px solid #3c64b1;
+  }
+  #edit_profile label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #696F79;
+    margin-bottom: 3px;
+  }
+  #edit_profile .btn-div{
+    text-align: right;
+  }
+  #edit_profile #edit_profile_btn {
+    background-color: #6383C1;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #F8FFF7;
+    border-radius: 8px;
+    padding: 10px 40px;
+    border: 1px solid #6383C1;
+}
+
+
+.change-password-container{
+    background: #fff;
+    padding: 30px;
+    border-radius: 18px;
+  }
+  .change-password-container h2{
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 25px;
+    color: #5E5E75;
+  }
+  #change_password input[type=text], #change_password input[type=password] {
+    background: #ffffff;
+    border: 1px solid #3C64B1;
+    box-sizing: border-box;
+    border-radius: 6px;
+    font-family: "DM Sans", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 18px;
+    color: #bcbec0;
+    min-height: 50px;
+    padding: 10px 20px;
+    width: 100%;
+  }
+  #change_password .row .form-group{
+      position: relative;
+  }
+  #change_password .row .form-group span{
+    cursor: pointer;
+    position: absolute;
+    bottom: 14px;
+    right: 22px;
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #000000;
+  }
+  #change_password input::placeholder {
+    color: #3c64b1;
+  }
+  #change_password input:focus,
+  #change_password input:active {
+    /* outline: 0; */
+    border: 2px solid #3c64b1;
+  }
+  #change_password label {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    color: #696F79;
+    margin-bottom: 3px;
+  }
+  #change_password .btn-div{
+    text-align: right;
+  }
+  #change_password #change_password_btn {
+    background-color: #6383C1;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #F8FFF7;
+    border-radius: 8px;
+    padding: 10px 40px;
+    border: 1px solid #6383C1;
+}
